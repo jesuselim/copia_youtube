@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #0f0f0f;
+    color: #f1f1f1;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    height: 30px;
+}
+
+
+
+.columna {
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 0px;
+    justify-content: center;
+    padding: 10px;
+    width: 1200px;
+    margin: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+
+}
+
+.columna img {
+    width: 360px;
+    border-radius: 15px;
+}
+
+.fila img {
+    width: 30px;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+
+
+h2 {
+    color: #f1f1f1;
+    font-size: 18px;
+    margin-top: 10px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: #717171;
+    font-weight: 900;
+    padding-top: 10px;
+    align-content: flex-start;
+    line-height: auto;
+    margin-right: 25px;
+    font-size: 15px;
+}
+
+.fila {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+h1 {
+    color: #f1f1f1;
+    font-size: 20px;
+    gap: 8px;
+}
+
+
+.content {
+    display: flex;
+    align-items: center ;
+    gap: 10px;
+    padding: 15px;
+
+}
+
+.cuadrilla {
+    display: flex;
+    padding: 10px;
+}
+
+aside {
+    width: 7%;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 15px;
+    font-style: normal;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.colaside {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.colaside a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.colaside i {
+    font-size: 20px;
+}
+
+
+.searchbar {
+    width: 800px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#buscador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buscador i {
+    height: 40px;
+    width: 60px;
+    border-radius: 0px 25px 25px 0px;
+    background-color: hsl(0, 0%, 18.82%);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-color: #717171;
+}
+
+#buscador a{
+    color: #717171;
+    text-decoration: none;
+}
+
+#buscador input {
+    display: flex;
+    width: 500px;
+    height: 40px;
+    border-radius: 25px 0px 0px 25px;
+    border: 1px solid;
+    border-color: #717171;
+    background-color: #0f0f0f;
+    color: #717171;
+}
+
+#buscador input::placeholder {
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.suggest {
+    display: flex;
+    flex-direction: row;
+    border: #717171;
+    gap: 40px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 20px; 
+}
+
+.suggest a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+h5 {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 5px;
+    padding-top: 12px;
+    padding-left: 30px;
+}
+
+.objeto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: #181818;
+    border-radius: 50%;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #f1f1f1;
+    width: 150px;
+}
+
+.user a {
+    border-radius: 50%;
+    height: 40px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+   color: #f1f1f1;
+}
+
+.button {
+    background-color: #373737;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 1ch;
+    margin-bottom: 1ch;
+    margin-left: 1ch;
+    margin-right: 1ch;
+}
+
+.contenido {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+#menu {
+    color: #f1f1f1;
+}
